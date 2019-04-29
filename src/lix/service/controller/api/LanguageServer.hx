@@ -1,4 +1,4 @@
-package haxe.cloud.controller.api;
+package lix.service.controller.api;
 
 import jsonrpc.Types;
 import jsonrpc.Protocol;
@@ -7,7 +7,7 @@ import tink.websocket.RawMessageStream;
 import tink.websocket.RawMessage;
 import tink.streams.Stream;
 
-class LanguageServer extends Base implements haxe.cloud.api.controller.LanguageServer {
+class LanguageServer extends Base implements lix.service.api.controller.LanguageServer {
 	
 	static var server = new HaxeLanguageServer();
 	

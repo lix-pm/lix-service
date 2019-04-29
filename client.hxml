@@ -1,5 +1,5 @@
 -cp src
--main haxe.cloud.Client
+-main lix.service.Client
 -js bin/client/index.js
 -dce full
 

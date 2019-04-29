@@ -1,4 +1,4 @@
-package haxe.cloud.util;
+package lix.service.util;
 
 import haxe.macro.Context;
 

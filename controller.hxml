@@ -1,5 +1,5 @@
 -cp src
--main haxe.cloud.Controller
+-main lix.service.Controller
 -js bin/controller/index.js
 -dce full
 

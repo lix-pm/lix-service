@@ -1,17 +1,17 @@
-package haxe.cloud;
+package lix.service;
 
 import tink.http.Response.OutgoingResponse;
 import tink.http.Handler;
 import tink.http.containers.NodeContainer;
 import tink.http.middleware.Log;
 import tink.web.routing.*;
-import haxe.cloud.api.controller.Root as Interface;
-import haxe.cloud.controller.api.Root as Impl;
+import lix.service.api.controller.Root as Interface;
+import lix.service.controller.api.Root as Impl;
 
 class Controller {
 	static function main() {
-		trace(haxe.cloud.util.Macro.getBuildDate());
-		trace(haxe.cloud.util.Macro.getGitSha());
+		trace(lix.service.util.Macro.getBuildDate());
+		trace(lix.service.util.Macro.getGitSha());
 		
 		var router = new Router<Interface>(new Impl());
 		

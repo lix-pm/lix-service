@@ -1,4 +1,4 @@
-package haxe.cloud.controller;
+package lix.service.controller;
 
 using haxe.io.Path;
 

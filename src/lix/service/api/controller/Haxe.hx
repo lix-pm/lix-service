@@ -1,7 +1,7 @@
-package haxe.cloud.api.controller;
+package lix.service.api.controller;
 
-interface Lix {
-	@:post
+interface Haxe {
+	@:post('/')
 	@:params(args in body)
 	function run(args:Array<String>):Promise<{code:Int, stdout:String, stderr:String}>;
 }
