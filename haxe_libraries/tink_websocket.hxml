@@ -1,0 +1,5 @@
+-D tink_websocket=0.0.0
+# @install: lix --silent download "gh://github.com/haxetink/tink_websocket#1f7df103faec28634ce5e4a899c1c67a9c15ef79" into tink_websocket/0.0.0/github/1f7df103faec28634ce5e4a899c1c67a9c15ef79
+-lib tink_http
+-lib tink_state
+-cp ${HAXE_LIBCACHE}/tink_websocket/0.0.0/github/1f7df103faec28634ce5e4a899c1c67a9c15ef79/src

@@ -1,0 +1,3 @@
+-D json-rpc=0.0.1
+# @install: lix --silent download "gh://github.com/vshaxe/json-rpc#e1f94e88fa35d21e58bd1cae79a56cb329d4c08b" into json-rpc/0.0.1/github/e1f94e88fa35d21e58bd1cae79a56cb329d4c08b
+-cp ${HAXE_LIBCACHE}/json-rpc/0.0.1/github/e1f94e88fa35d21e58bd1cae79a56cb329d4c08b/src

@@ -1,0 +1,15 @@
+-cp src
+-main haxe.cloud.Controller
+-js bin/controller/index.js
+-dce full
+
+-lib asys
+-lib hxnodejs
+-lib json-rpc
+-lib tink_web
+-lib tink_http_middleware
+-lib tink_websocket
+-lib tink_core_ext
+-lib why-fs
+
+-D analyzer-optimize
